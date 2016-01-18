@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @astronaut.name %>
+</p>
+
+<p>
+  <strong>Image url:</strong>
+  <%= @astronaut.image_url %>
+</p>
+
+<%= link_to 'Edit', edit_astronaut_path(@astronaut) %> |
+<%= link_to 'Back', astronauts_path %>
