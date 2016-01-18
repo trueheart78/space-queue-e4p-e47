@@ -1,3 +1,5 @@
-The OpenShift `ruby` cartridge documentation can be found at:
+# SpaceQueue!
 
-http://openshift.github.io/documentation/oo_cartridge_guide.html#ruby
+Manage the queue to send people to space!
+
+Ruby 2.0 and Rails 4.2
