@@ -9,6 +9,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'simple_form', '~> 3.2', '>= 3.2.1'
 gem 'font-awesome-rails', '~> 4.5'
+gem 'httparty', '~> 0.13'
 
 gem 'paranoia', '~> 2.1', '>= 2.1.4' # for soft deletes
 

@@ -69,6 +69,6 @@ class AstronautsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def astronaut_params
-      params.require(:astronaut).permit(:name, :image_url)
+      params.require(:astronaut).permit(:name, :image)
     end
 end
