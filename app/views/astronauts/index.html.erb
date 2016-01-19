@@ -15,7 +15,7 @@
     <% @astronauts.each do |astronaut| %>
       <tr>
         <td><%= astronaut.name %></td>
-        <td><%= astronaut.image %></td>
+        <td><%= image_tag(astronaut.image) unless astronaut.image.blank? %></td>
         <td><%= link_to 'Show', astronaut %></td>
         <td><%= link_to 'Edit', edit_astronaut_path(astronaut) %></td>
         <td><%= link_to 'Destroy', astronaut, method: :delete, data: { confirm: 'Are you sure?' } %></td>

@@ -6,8 +6,7 @@
 </p>
 
 <p>
-  <strong>Image:</strong>
-  <%= @astronaut.image %>
+  <%= image_tag(@astronaut.image) unless @astronaut.image.blank? %>
 </p>
 
 <%= link_to 'Edit', edit_astronaut_path(@astronaut) %> |
